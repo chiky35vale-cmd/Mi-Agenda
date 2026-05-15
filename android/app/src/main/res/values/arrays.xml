@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="assistant_today_agenda_feature_names">
+        <item>agenda de hoy</item>
+        <item>mi agenda de hoy</item>
+        <item>agenda diaria</item>
+        <item>agenda del dia</item>
+        <item>recordatorios de hoy</item>
+        <item>que tengo hoy</item>
+    </string-array>
+    <string-array name="assistant_voice_entry_feature_names">
+        <item>crear recordatorio por voz</item>
+        <item>recordatorio por voz</item>
+        <item>nuevo recordatorio por voz</item>
+        <item>abrir recordatorio por voz</item>
+        <item>crear aviso por voz</item>
+        <item>dictar recordatorio</item>
+    </string-array>
+</resources>

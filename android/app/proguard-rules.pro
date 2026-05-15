@@ -1,0 +1,3 @@
+-dontwarn com.google.common.flogger.backend.google.GooglePlatform
+-dontwarn com.google.common.flogger.backend.system.DefaultPlatform
+-dontwarn dalvik.system.VMStack

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="today_agenda_widget_name">Agenda de hoy</string>
+    <string name="today_agenda_widget_title">Agenda de hoy</string>
+    <string name="today_agenda_widget_empty">Hoy no tienes recordatorios pendientes.</string>
+    <string name="today_agenda_widget_subtitle">Consulta rapida de tus recordatorios del dia.</string>
+    <string name="today_agenda_widget_hint">Prueba: \"Hey Google, abre agenda de hoy de Mi Agenda\"</string>
+    <string name="today_agenda_widget_more">%1$d mas en tu agenda de hoy.</string>
+    <string name="today_agenda_activity_title">Agenda de hoy</string>
+    <string name="today_agenda_activity_close">Cerrar</string>
+    <string name="today_agenda_activity_shortcut_hint">Atajo del sistema para Samsung y otros Android.</string>
+    <string name="today_agenda_shortcut_long_label">Abrir agenda de hoy</string>
+    <string name="voice_entry_activity_title">Mi Agenda Voz</string>
+    <string name="voice_entry_shortcut_long_label">Crear recordatorio, tarea, compra o nota por voz</string>
+    <string name="assistant_today_agenda_short_label">Agenda de hoy</string>
+    <string name="assistant_today_agenda_long_label">Mostrar agenda de hoy</string>
+    <string name="assistant_voice_entry_short_label">Agenda por voz</string>
+    <string name="assistant_voice_entry_long_label">Abrir creador por voz de recordatorios, tareas, compras y notas</string>
+</resources>

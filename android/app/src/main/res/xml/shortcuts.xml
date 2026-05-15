@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="launcher_today_agenda"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/today_agenda_activity_title"
+        android:shortcutLongLabel="@string/today_agenda_shortcut_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.tunombre.recordatorio"
+            android:targetClass="com.tunombre.recordatorio.TodayAgendaActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="launcher_voice_entry"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/voice_entry_activity_title"
+        android:shortcutLongLabel="@string/voice_entry_shortcut_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.tunombre.recordatorio"
+            android:targetClass="com.tunombre.recordatorio.VoiceEntryActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="voice_entry"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/assistant_voice_entry_short_label"
+        android:shortcutLongLabel="@string/assistant_voice_entry_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.tunombre.recordatorio"
+            android:targetClass="com.tunombre.recordatorio.VoiceEntryActivity" />
+        <capability-binding android:key="actions.intent.OPEN_APP_FEATURE">
+            <parameter-binding
+                android:key="feature"
+                android:value="@array/assistant_voice_entry_feature_names" />
+        </capability-binding>
+    </shortcut>
+
+    <capability android:name="actions.intent.OPEN_APP_FEATURE">
+        <intent
+            android:targetPackage="com.tunombre.recordatorio"
+            android:targetClass="com.tunombre.recordatorio.MainActivity" />
+        <app-widget
+            android:targetPackage="com.tunombre.recordatorio"
+            android:targetClass="com.tunombre.recordatorio.TodayAgendaWidgetProvider" />
+    </capability>
+
+    <shortcut
+        android:shortcutId="today_agenda"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/assistant_today_agenda_short_label"
+        android:shortcutLongLabel="@string/assistant_today_agenda_long_label">
+        <capability-binding android:key="actions.intent.OPEN_APP_FEATURE">
+            <parameter-binding
+                android:key="feature"
+                android:value="@array/assistant_today_agenda_feature_names" />
+        </capability-binding>
+    </shortcut>
+</shortcuts>
