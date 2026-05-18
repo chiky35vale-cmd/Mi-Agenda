@@ -16,4 +16,6 @@
     <string name="assistant_today_agenda_long_label">Mostrar agenda de hoy</string>
     <string name="assistant_voice_entry_short_label">Agenda por voz</string>
     <string name="assistant_voice_entry_long_label">Abrir creador por voz de recordatorios, tareas, compras y notas</string>
+    <string name="volume_button_accessibility_description">Mi Agenda Voz – Manten pulsado el boton de volumen para crear recordatorios, tareas, compras o notas por voz sin abrir la aplicacion. Tambien puedes pulsar volumen arriba y abajo a la vez.</string>
+    <string name="volume_button_accessibility_title">Mi Agenda Voz (Boton de volumen)</string>
 </resources>
