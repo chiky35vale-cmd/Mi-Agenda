@@ -7,16 +7,16 @@ import '../screens/home_screen.dart';
 import '../screens/voice_quick_create_screen.dart';
 import 'app_theme.dart';
 
-class RecordatorioApp extends StatefulWidget {
-  const RecordatorioApp({super.key, required this.controller});
+class MiAgendaApp extends StatefulWidget {
+  const MiAgendaApp({super.key, required this.controller});
 
   final ReminderController controller;
 
   @override
-  State<RecordatorioApp> createState() => _RecordatorioAppState();
+  State<MiAgendaApp> createState() => _MiAgendaAppState();
 }
 
-class _RecordatorioAppState extends State<RecordatorioApp> {
+class _MiAgendaAppState extends State<MiAgendaApp> {
   final GlobalKey<NavigatorState> _navigatorKey = GlobalKey<NavigatorState>();
 
   int _lastHandledReminderOpenRequest = 0;
@@ -28,7 +28,7 @@ class _RecordatorioAppState extends State<RecordatorioApp> {
   }
 
   @override
-  void didUpdateWidget(covariant RecordatorioApp oldWidget) {
+  void didUpdateWidget(covariant MiAgendaApp oldWidget) {
     super.didUpdateWidget(oldWidget);
     if (oldWidget.controller == widget.controller) {
       return;

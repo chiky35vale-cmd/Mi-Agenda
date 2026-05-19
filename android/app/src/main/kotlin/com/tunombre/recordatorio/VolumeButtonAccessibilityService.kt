@@ -130,7 +130,7 @@ class VolumeButtonAccessibilityService : AccessibilityService() {
                     PowerManager.SCREEN_BRIGHT_WAKE_LOCK or
                             PowerManager.ACQUIRE_CAUSES_WAKEUP or
                             PowerManager.ON_AFTER_RELEASE,
-                    "Recordatorio:VoiceWakeLock"
+                    "MiAgenda:VoiceWakeLock"
                 )
                 wakeLock.acquire(1500L)
             }

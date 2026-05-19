@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:recordatorio/src/models/reminder.dart';
-import 'package:recordatorio/src/utils/voice_reminder_parser.dart';
+import 'package:mi_agenda/src/models/reminder.dart';
+import 'package:mi_agenda/src/utils/voice_reminder_parser.dart';
 
 void main() {
   group('parseVoiceReminderCommand', () {

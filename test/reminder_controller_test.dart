@@ -1,8 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:recordatorio/src/controllers/reminder_controller.dart';
-import 'package:recordatorio/src/data/reminder_repository.dart';
-import 'package:recordatorio/src/models/reminder.dart';
-import 'package:recordatorio/src/services/reminder_notification_service.dart';
+import 'package:mi_agenda/src/controllers/reminder_controller.dart';
+import 'package:mi_agenda/src/data/reminder_repository.dart';
+import 'package:mi_agenda/src/models/reminder.dart';
+import 'package:mi_agenda/src/services/reminder_notification_service.dart';
 
 void main() {
   group('ReminderController', () {

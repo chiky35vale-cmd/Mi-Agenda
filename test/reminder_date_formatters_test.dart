@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:recordatorio/src/models/reminder.dart';
-import 'package:recordatorio/src/utils/reminder_date_formatters.dart';
+import 'package:mi_agenda/src/models/reminder.dart';
+import 'package:mi_agenda/src/utils/reminder_date_formatters.dart';
 
 void main() {
   setUpAll(() async {

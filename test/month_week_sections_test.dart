@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:recordatorio/src/utils/month_week_sections.dart';
+import 'package:mi_agenda/src/utils/month_week_sections.dart';
 
 void main() {
   setUpAll(() async {
