@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:recordatorio/src/models/reminder.dart';
-import 'package:recordatorio/src/services/reminder_notification_service.dart';
+import 'package:mi_agenda/src/models/reminder.dart';
+import 'package:mi_agenda/src/services/reminder_notification_service.dart';
 
 Future<void> main() async {
   await initializeDateFormatting('es_ES');

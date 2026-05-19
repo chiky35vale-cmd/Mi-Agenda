@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:recordatorio/src/utils/voice_dictation.dart';
+import 'package:mi_agenda/src/utils/voice_dictation.dart';
 
 void main() {
   group('voice dictation helpers', () {

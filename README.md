@@ -1,4 +1,4 @@
-# Recordatorio
+# Mi Agenda
 
 Aplicacion Android de recordatorios creada con Flutter.
 
@@ -22,7 +22,7 @@ Aplicacion Android de recordatorios creada con Flutter.
 
 ## Comandos utiles
 
-Desde `C:\Users\av\Desktop\IA\Aplicaciones IA\Recordatorio`:
+Desde `C:\Users\av\Desktop\IA\Aplicaciones IA\Mi Agenda`:
 
 ```powershell
 $env:Path = 'C:\Program Files\Git\cmd;' + $env:Path
@@ -38,7 +38,7 @@ Set-Location .\app
 Para compilar una APK:
 
 ```powershell
-Set-Location 'C:\Users\av\Desktop\IA\Aplicaciones IA\Recordatorio\app'
+Set-Location 'C:\Users\av\Desktop\IA\Aplicaciones IA\Mi Agenda\app'
 ..\tools\flutter\bin\flutter.bat build apk
 ```
 
@@ -48,7 +48,7 @@ Set-Location 'C:\Users\av\Desktop\IA\Aplicaciones IA\Recordatorio\app'
 
 Ruta absoluta:
 
-- `C:\Users\av\Desktop\IA\Aplicaciones IA\Recordatorio\app\build\app\outputs\flutter-apk\app-release.apk`
+- `C:\Users\av\Desktop\IA\Aplicaciones IA\Mi Agenda\app\build\app\outputs\flutter-apk\app-release.apk`
 
 ## Emulador preparado
 
@@ -57,7 +57,7 @@ Ruta absoluta:
 Si quieres arrancarlo manualmente:
 
 ```powershell
-Set-Location 'C:\Users\av\Desktop\IA\Aplicaciones IA\Recordatorio'
+Set-Location 'C:\Users\av\Desktop\IA\Aplicaciones IA\Mi Agenda'
 $env:JAVA_HOME = 'C:\Program Files\Android\Android Studio\jbr'
 $env:ANDROID_SDK_ROOT = (Resolve-Path '.\.android-sdk').Path
 $env:ANDROID_HOME = $env:ANDROID_SDK_ROOT

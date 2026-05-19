@@ -2,7 +2,7 @@ import 'package:flutter/widgets.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:intl/intl.dart';
 
-import 'src/app/recordatorio_app.dart';
+import 'src/app/mi_agenda_app.dart';
 import 'src/controllers/reminder_controller.dart';
 import 'src/data/reminder_repository.dart';
 import 'src/services/reminder_notification_service.dart';
@@ -28,5 +28,5 @@ Future<void> main() async {
   );
   await controller.initialize();
 
-  runApp(RecordatorioApp(controller: controller));
+  runApp(MiAgendaApp(controller: controller));
 }

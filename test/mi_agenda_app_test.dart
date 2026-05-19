@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:recordatorio/src/app/recordatorio_app.dart';
+import 'package:mi_agenda/src/app/mi_agenda_app.dart';
 
 void main() {
   group('resolveAppInitialRoute', () {

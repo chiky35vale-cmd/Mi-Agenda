@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:recordatorio/src/utils/voice_text_polisher.dart';
+import 'package:mi_agenda/src/utils/voice_text_polisher.dart';
 
 void main() {
   group('polishVoiceTranscriptText', () {

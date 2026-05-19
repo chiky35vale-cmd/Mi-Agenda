@@ -11,15 +11,19 @@ import '../data/reminder_repository.dart';
 import '../models/reminder.dart';
 import '../utils/voice_text_polisher.dart';
 
-const String _channelId = 'recordatorio_alertas_v2';
-const String _channelName = 'Recordatorios con sonido';
+const String _channelId = 'mi_agenda_alertas_v2';
+const String _channelName = 'Mi Agenda - alertas';
 const String _channelDescription =
-    'Avisos programados para los recordatorios guardados en la app.';
-const String _voiceShortcutChannelId = 'recordatorio_acceso_voz';
-const String _voiceShortcutChannelName = 'Tareas en pantalla bloqueada';
+    'Avisos programados para los recordatorios guardados en Mi Agenda.';
+const String _voiceShortcutChannelId = 'mi_agenda_acceso_voz';
+const String _voiceShortcutChannelName = 'Mi Agenda en pantalla bloqueada';
 const String _voiceShortcutChannelDescription =
-    'Panel fijo de tareas y acceso rapido desde la pantalla bloqueada.';
-const List<String> _legacyChannelIds = <String>['recordatorio_channel'];
+    'Panel fijo de tareas y acceso rapido desde Mi Agenda en la pantalla bloqueada.';
+const List<String> _legacyChannelIds = <String>[
+  'recordatorio_channel',
+  'recordatorio_alertas_v2',
+  'recordatorio_acceso_voz',
+];
 const String _snooze10ActionId = 'snooze_10m';
 const String _snooze30ActionId = 'snooze_30m';
 const String _snooze60ActionId = 'snooze_60m';
@@ -177,7 +181,7 @@ class LocalReminderNotificationService implements ReminderNotificationService {
         category: AndroidNotificationCategory.alarm,
         fullScreenIntent: true,
         visibility: NotificationVisibility.public,
-        ticker: 'Recordatorio',
+        ticker: 'Mi Agenda',
         actions: const <AndroidNotificationAction>[
           AndroidNotificationAction(_snooze10ActionId, 'Posponer 10 min'),
           AndroidNotificationAction(_snooze30ActionId, 'Posponer 30 min'),
